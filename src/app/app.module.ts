@@ -1,16 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DeckOfCardsManagerModule } from 'deck-of-cards-manager';
+import { CardsDealerComponent } from './cards-dealer/cards-dealer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardsDealerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    DeckOfCardsManagerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

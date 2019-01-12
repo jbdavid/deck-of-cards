@@ -1,0 +1,21 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  button {
+    margin: 10px;
+  }
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .card {
+    height: 100px;
+    margin: 15px;
+    width: auto;
+  }
+}

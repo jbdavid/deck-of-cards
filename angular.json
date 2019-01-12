@@ -133,6 +133,41 @@
           }
         }
       }
+    },
+    "deck-of-cards-manager": {
+      "root": "projects/deck-of-cards-manager",
+      "sourceRoot": "projects/deck-of-cards-manager/src",
+      "projectType": "library",
+      "prefix": "dcm",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/deck-of-cards-manager/tsconfig.lib.json",
+            "project": "projects/deck-of-cards-manager/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/deck-of-cards-manager/src/test.ts",
+            "tsConfig": "projects/deck-of-cards-manager/tsconfig.spec.json",
+            "karmaConfig": "projects/deck-of-cards-manager/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/deck-of-cards-manager/tsconfig.lib.json",
+              "projects/deck-of-cards-manager/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "deck-of-cards"

@@ -1,0 +1,9 @@
+<div>
+  <div class="buttons">
+    <button (click)="shuffle()">Shuffle !</button>
+    <button (click)="dealOneCard()">Deal one card !</button>
+  </div>
+  <div class="table">
+    <img *ngFor="let card of dealtCards$ | async" class="card" src="./assets/img/cards/{{card.faceValue}}_of_{{card.suit}}.png">
+  </div>
+</div>
