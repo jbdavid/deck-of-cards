@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "deck-of-cards-manager": [
-        "dist/deck-of-cards-manager"
+      "deck-of-cards": [
+        "dist/deck-of-cards"
       ],
-      "deck-of-cards-manager/*": [
-        "dist/deck-of-cards-manager/*"
+      "deck-of-cards/*": [
+        "dist/deck-of-cards/*"
       ]
     }
   }

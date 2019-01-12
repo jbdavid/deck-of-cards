@@ -9,4 +9,4 @@ import { DealtCardsState } from './dealt-cards.state';
   ],
   exports: []
 })
-export class DeckOfCardsManagerModule { }
+export class DeckOfCardsModule { }

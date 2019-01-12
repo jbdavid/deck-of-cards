@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { DeckOfCardsManagerModule } from 'deck-of-cards-manager';
+import { DeckOfCardsModule } from 'deck-of-cards';
 import { CardsDealerComponent } from './cards-dealer/cards-dealer.component';
 
 @NgModule({
@@ -12,7 +12,7 @@ import { CardsDealerComponent } from './cards-dealer/cards-dealer.component';
   ],
   imports: [
     BrowserModule,
-    DeckOfCardsManagerModule
+    DeckOfCardsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

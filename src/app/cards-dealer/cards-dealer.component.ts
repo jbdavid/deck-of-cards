@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Select, Store } from '@ngxs/store';
-import { Card, DealOneCardAction, ShuffleAction } from 'deck-of-cards-manager';
+import { Card, DealOneCardAction, ShuffleAction } from 'deck-of-cards';
 
 @Component({
   selector: 'app-cards-dealer',

@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/deck-of-cards-manager",
+  "dest": "../../dist/deck-of-cards",
   "lib": {
     "entryFile": "src/public_api.ts"
   },
