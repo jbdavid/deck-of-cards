@@ -19,11 +19,11 @@ export class CardsDealerComponent implements OnInit {
   }
 
   shuffle() {
-    this.store.dispatch(ShuffleAction);
+    this.store.dispatch(new ShuffleAction());
   }
 
   dealOneCard() {
-    this.store.dispatch(DealOneCardAction);
+    this.store.dispatch(new DealOneCardAction());
   }
 
 }
