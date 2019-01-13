@@ -15,6 +15,20 @@ Next time, simply run `npm start` for a dev server.
 
 Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## How to use deck-of-cards in your project 
+
+First install the following dependencies in your project: `npm install @jbdavid/deck-of-cards@latest @ngxs/store --save`
+
+Then import DeckOfCardsModule in your app module : 
+
+![](Doc_imports_module.png)
+
+Now you're ready to get the dealt cards state and launch ShuffleAction and DealOneCardAction !
+
+![](Doc_package_use.png)
+
+Shuffle up and deal !
+
 ## Development
 
 ### Build the lib
