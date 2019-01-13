@@ -15,7 +15,6 @@ export class DealtCardsState implements NgxsOnInit {
 
   ngxsOnInit({setState}: StateContext<any>): void | any {
     setState([]);
-    console.log('State initialized, shuffle up and deal !');
   }
 
   @Action(ShuffleAction)

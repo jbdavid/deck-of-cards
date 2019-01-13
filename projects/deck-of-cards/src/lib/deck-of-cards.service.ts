@@ -8,7 +8,7 @@ import { FaceValue } from './model/face-value';
 })
 export class DeckOfCardsService {
 
-  private static readonly initialDeck: Array<Card> = [
+  static readonly initialDeck: Array<Card> = [
     {suit: Suit.DIAMONDS, faceValue: FaceValue.ACE},
     {suit: Suit.DIAMONDS, faceValue: FaceValue.TWO},
     {suit: Suit.DIAMONDS, faceValue: FaceValue.THREE},
